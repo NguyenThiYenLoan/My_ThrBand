@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBand</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="stylesheet" href="../FONT/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <!-- Begin : Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li> 
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="nav-more">
+                    More 
+                    <i class="nav-arrow-dow ti-angle-down"></i>
+                </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End : Nav -->
+
+            <!-- begin: menu mobile -->
+            <div id="mobile-menu" class="mobile-menu-button">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!-- end: menu mobile -->
+
+            <!-- Begin: Search button -->
+            <div class="search-button">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!-- End : Search button -->
+        </div>
+
+        <div class="slider">
+            <div class="text-content">
+                <h2 class="text-heading"> New York </h2>
+                <div class="text-description"> The atmosphere in New York is lorem ipsum. </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- About section -->
+            <div class="content-section" id="band">
+                <h2 class="section-heading">The band</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </p>
+                <div class="member-list">
+                    <div class="member-item member-item-mobile">
+                        <div class="member-name">Jin</div>
+                        <img src="../IMG/singer1.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item member-item-mobile">
+                        <div class="member-name">V</div>
+                        <img src="../IMG/singer2.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item member-item-mobile">
+                        <div class="member-name">RM</div>
+                        <img src="../IMG/singer3.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+
+            <!-- Tour section -->
+            <div class="tour-section" id="tour">
+                <div class="content-section">
+                    <h2 class="section-heading text-while ">Tour dates</h2>
+                    <p class="section-sub-heading text-while ">Remember to book your tickets !</p>
+                    <!-- Tickets -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">9</span></li>
+                    </ul>
+                    <!-- Places -->
+                    <div class="row places-list">
+                        <div class="place-item place-item-mobile">
+                            <img src="../IMG/tour1.jpg" alt="Seoul" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Seoul</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-desc">Add a navigation bar for navigating to Home, About, Members and Contact.</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-item place-item-mobile">
+                            <img src="../IMG/tour2.jpg" alt="Los Angeles" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Los Angeles</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-desc">Add a navigation bar for navigating to Home, About, Members and Contact.</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-item place-item-mobile">
+                            <img src="../IMG/tour3.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-desc">Add a navigation bar for navigating to Home, About, Members and Contact.</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact section -->
+            <div class="contact-section" id="contact">
+                <div class="content-section">
+                    <h2 class="section-heading">Contact</h2>
+                    <div class="contact-infor">
+                        <p><i class="ti-location-pin"></i> Chicago, US</p>
+                        <p><i class="ti-mobile"></i> Phone: +00 11511519</p>
+                        <p><i class="ti-email"></i> Email: mail@mail.com</p>
+                    </div>
+                    <p class="section-sub-heading">Fan ? Drop a note !</p>
+                    <div class="contact-infor-form">
+                        <form action="" class="tablet">
+                            <input type="text" class="contact-infor-list" placeholder="Name" required>
+                            <input type="text" class="contact-infor-list" placeholder="Email" required>
+                            <input type="text" class="contact-infor-list" placeholder="Mesage" required>
+                            <button type="submit" class="button-send-infor">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end : contact section -->
+
+        <div class="map-section">
+            <img src="../IMG/map.jpg" alt="map">
+        </div>
+        <!-- footer  -->
+        <div class="footer">
+            <div class="socials-list">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-instagram"></i></a>
+                <a href="#"><i class="ti-youtube"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powerred by <a href="#">w3.css</a></p>
+        </div>
+    </div>
+
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="ti-bag" style="margin-right: 15px;"></i>
+                    Tickets
+                </header>
+                <div class="modal-body">
+                    <label class="modal-label" for="ticket-quantity">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, 15$ per person
+                    </label>
+                    <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many ?">
+                    <label class="modal-label" for="email-buy-ticket">
+                        <i class="ti-user"></i>
+                        Send to
+                    </label>
+                    <input id="email-buy-ticket" type="text" class="modal-input" placeholder="Enter email...">
+                    <button id="buy-tickets"> 
+                        Pay
+                        <i class="ti-check"></i>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <p class="modal-help">Need <a href="#">help ?</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/script.js"></script>
+
+    <!-- Đoạn script thường được đặt ở cuối file HTML, ngay trước thẻ đóng body
+     để đảm bảo rằng toàn bộ nội dung HTML được tải và phân tích xong trước khi JavaScript bắt đầu chạy. 
+     Điều này giúp tránh các lỗi xảy ra khi JavaScript cố gắng truy cập hoặc thao tác các phần tử HTML chưa tồn tại trong DOM. -->
+</body>
+</html>
